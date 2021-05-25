@@ -164,4 +164,9 @@ public class Fraction {
 		return flag;
 	}
 
+	@Override
+	public String toString() {
+		return "Фракція [Назва =" + fractionName + ", Депутати =" + listOfDeputats + "]";
+	}
+
 }
